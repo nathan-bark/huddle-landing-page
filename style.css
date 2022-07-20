@@ -68,18 +68,27 @@ button {
 }
 
 .icon-container {
-    width: 28px;
+    width: 27.5px;
     height: 28px;
     display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10.5px;
 }
 
 .icons {
     filter: invert(99%) sepia(17%) saturate(325%) hue-rotate(257deg) brightness(124%) contrast(100%);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50%;
-    padding: 3px;
-    width: 80%;
-    height: 80%;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
 }
 
+.twitter {
+    margin-left: -10px;
+}
 
+.instagram {
+    margin-right: 0;
+}
